@@ -1,4 +1,4 @@
-# Session ID - Session Title
+# DT261 - Build on-stack extensions with ABAP Cloud in SAP Cloud ERP
 
 ## Description
 
