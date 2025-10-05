@@ -36,7 +36,7 @@ Once extensibility is enabled, extension providers can enhance the original BO b
 
 From the consumer’s perspective, extensions are seamlessly integrated into both the design-time and runtime environments of the BO. Although extensions are self-contained, they function as part of the overall BO. Importantly, extensions can only define behavior for their own elements and operations—they cannot override or modify the behavior of the original BO elements.
 
-For an architecture overview, see [Extensibility Architecture Overview](#https://help.sap.com/docs/abap-cloud/abap-rap/extensibility-architecture-overview?locale=en-US&version=LATEST)
+For an architecture overview, see [Extensibility Architecture Overview](https://help.sap.com/docs/abap-cloud/abap-rap/extensibility-architecture-overview?locale=en-US&version=LATEST)
 
 
 
@@ -56,6 +56,6 @@ The main aspect of developer extensibility is the option to extend an extensible
 
 | SAP Help Portal  |  |
 | ------ | -- |
-| [ABAP RESTful Application Programming Model](#https://help.sap.com/docs/abap-cloud/abap-rap/abap-restful-application-programming-model?locale=en-US&version=LATEST)| The ABAP RESTful Application Programming Model (in short RAP) defines the architecture for efficient end-to-end development of intrinsically SAP HANA-optimized OData services (such as Fiori apps) in ABAP Cloud. |
-| [RAP Extensibility-Enablement](#https://help.sap.com/docs/abap-cloud/abap-rap/rap-extensibility-enablement?locale=en-US&version=LATEST) | Explains the concepts of how to enable a custom RAP BO for extension development. |
-| [Develop RAP Extensions](#https://help.sap.com/docs/abap-cloud/abap-rap/develop-rap-extensions?locale=en-US&version=LATEST) | This site offers how-to information and implementation examples for extending a RAP BO. |
+| [ABAP RESTful Application Programming Model](https://help.sap.com/docs/abap-cloud/abap-rap/abap-restful-application-programming-model?locale=en-US&version=LATEST)| The ABAP RESTful Application Programming Model (in short RAP) defines the architecture for efficient end-to-end development of intrinsically SAP HANA-optimized OData services (such as Fiori apps) in ABAP Cloud. |
+| [RAP Extensibility-Enablement](https://help.sap.com/docs/abap-cloud/abap-rap/rap-extensibility-enablement?locale=en-US&version=LATEST) | Explains the concepts of how to enable a custom RAP BO for extension development. |
+| [Develop RAP Extensions](https://help.sap.com/docs/abap-cloud/abap-rap/develop-rap-extensions?locale=en-US&version=LATEST) | This site offers how-to information and implementation examples for extending a RAP BO. |
