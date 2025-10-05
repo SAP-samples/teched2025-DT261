@@ -3,7 +3,6 @@
 - [TechEd2025 - DT261 - Build on-stack extensions with ABAP Cloud in SAP Cloud ERP](#teched2025---dt261---build-on-stack-extensions-with-abap-cloud-in-sap-cloud-erp)
   - [💬Description](#description)
   - [🗺️ Overview](#️-overview)
-  - [📋Requirements for attending this workshop](#requirements-for-attending-this-workshop)
   - [🛠️ Exercises](#️-exercises)
   - [ℹ️ Further Information](#ℹ️-further-information)
 
@@ -12,31 +11,32 @@
 
 This repository contains the material for the SAP TechEd 2025 session **DT261 - Build on-stack extensions with ABAP Cloud in SAP Cloud ERP**.
 
-**Developer extensibility as defined by SAP basically encompasses two main activities.**
+**Developer extensibility as defined by SAP basically encompasses two main activities:**
 
-1. Develop custom code to implement your own business logic.   
+1. Develop custom code to implement your own business logic. 
 
-   Here you can make use of existing API's from SAP that have been released for that purpose.
+   → Here you can make use of existing API's from SAP that have been released for that purpose.
    
 3. Extend an existing RAP Business Object so that additional business functionality is added.
 
-   Such an extensible RAP business object will usually reside in another software components or it is an existing extensible RAP BO that has been delivered by SAP or a SAP partner.  
-   By extending the funcitionality of an existing RAP Business object its functionality can be adapted to your specific business requirements.
+   → Such an extensible RAP business object will usually reside in another software components or it is an existing extensible RAP BO that has been delivered by SAP or a SAP partner. By extending the funcitionality of an existing RAP Business object its functionality can be adapted to your specific business requirements.
 
    ![S4 HANA Cloud Extensibility Options](images/Scenario_Overview.png)
 
 
 ## 🗺️ Overview
 
-**This session provides an introduction to the ABAP RESTful Application Programming Model (RAP) and explores how it can be effectively leveraged in application development."**
-* to extend an existing RAP Business Object.   
-* _❓❓❓to build extensions (own code) in SAP S/4HANA Public Cloud and how ❓❓❓_
 
+**This session gives you an overview of the RAP extensibility architecture, extension development artifacts and available extensibility features.**
 
-## 📋Requirements for attending this workshop 
-[^Top of page](#)
+Extensibility in RAP (RESTful ABAP Programming Model) empowers application consumers to tailor existing applications to meet specific business requirements and processes through RAP extensions. These extensibility features are built with lifecycle stability in mind and ensure a clear separation of concerns between the original business object (BO) and its extensions. Each extension is self-contained and consistently managed by RAP, regardless of whether the BO is managed or unmanaged.
+By default, a RAP BO is not extensible. To enable extensibility, the original BO provider must explicitly allow it by defining dedicated extension points. These points can be finely controlled, giving precise authority over which parts of the BO can be extended and what types of extensions are permitted.
 
-_❓❓❓ DO WE NEED TO ADD THIS ❓❓❓_
+Once extensibility is enabled, extension providers can enhance the original BO by adding various types of extensions to its data model and behavior. However, they are restricted to only those extension types that the original BO has been configured to support. Attempting to define unsupported fields or behaviors will result in syntax errors in the extension BDEF and related data model extension objects.
+
+From the consumer’s perspective, extensions are seamlessly integrated into both the design-time and runtime environments of the BO. Although extensions are self-contained, they function as part of the overall BO. Importantly, extensions can only define behavior for their own elements and operations—they cannot override or modify the behavior of the original BO elements.
+
+For an architecture overview, see [Extensibility Architecture Overview](#https://help.sap.com/docs/abap-cloud/abap-rap/extensibility-architecture-overview?locale=en-US&version=LATEST)
 
 
 ## 🛠️ Exercises
@@ -55,6 +55,6 @@ The main aspect of developer extensibility is the option to extend an extensible
 
 | SAP Help Portal  |  |
 | ------ | -- |
-| _ABAP RESTful Application Programming Model_|  https://help.sap.com/docs/abap-cloud/abap-rap/abap-restful-application-programming-model?locale=en-US&version=LATEST |
-| _RAP Extensibility-Enablement_ | https://help.sap.com/docs/abap-cloud/abap-rap/rap-extensibility-enablement?locale=en-US&version=LATEST |
-| _Develop RAP Extensions_ |  https://help.sap.com/docs/abap-cloud/abap-rap/develop-rap-extensions?locale=en-US&version=LATEST |
+| [ABAP RESTful Application Programming Model](#https://help.sap.com/docs/abap-cloud/abap-rap/abap-restful-application-programming-model?locale=en-US&version=LATEST)| The ABAP RESTful Application Programming Model (in short RAP) defines the architecture for efficient end-to-end development of intrinsically SAP HANA-optimized OData services (such as Fiori apps) in ABAP Cloud. |
+| [RAP Extensibility-Enablement](#https://help.sap.com/docs/abap-cloud/abap-rap/rap-extensibility-enablement?locale=en-US&version=LATEST) | Explains the concepts of how to enable a custom RAP BO for extension development. |
+| [Develop RAP Extensions](#https://help.sap.com/docs/abap-cloud/abap-rap/develop-rap-extensions?locale=en-US&version=LATEST) | This site offers how-to information and implementation examples for extending a RAP BO. |
