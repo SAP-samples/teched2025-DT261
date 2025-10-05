@@ -9,13 +9,12 @@
 ## 🔴 Important Information
 
 > **📌 Note**   
-> We’ve got sessions running in several locations — please pick the one that’s right for you!
-> Replace the last two digits to get your group number
+> We’ve got sessions running in several locations  → please pick the one that’s right for you!
+
+> **📌 Replace the last two digits to get your group number:**
 > * ZDT261_**0##** → **01** → **40** → **SAP TechEd Berlin**  
 > * ZDT261_**1##** → **00** → **99** → **ASUG Tech-Connect**
 
-> **📌 Note**   
-> Don't forget to replace all occurences of the placeholder **`###`** with your assigned location and group number in the exercise steps below.
 <br>
 
 ## 🔐 System and Logon Information
