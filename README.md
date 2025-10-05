@@ -39,6 +39,7 @@ From the consumer’s perspective, extensions are seamlessly integrated into bot
 For an architecture overview, see [Extensibility Architecture Overview](#https://help.sap.com/docs/abap-cloud/abap-rap/extensibility-architecture-overview?locale=en-US&version=LATEST)
 
 
+
 ## 🛠️ Exercises
 
 The main aspect of developer extensibility is the option to extend an extensible RAP business object that has been delivered by SAP or a SAP partner.
