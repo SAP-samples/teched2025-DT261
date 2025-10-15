@@ -23,7 +23,7 @@
 
 <br>
 
-After having added a field we will add an action to the base RAP BO. 
+After having added a field we will add an action to the base RAP BO.
 
 > ⚠ Please note:  
 > Actions can only be added using extensibility to fields that have been added via extensibility themselves.

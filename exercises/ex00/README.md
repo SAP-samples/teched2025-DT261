@@ -9,7 +9,7 @@
 ## 🔴 Important Information
 
 > **📌 Note**   
-> We’ve got sessions running in several locations  → please pick the one that’s right for you!
+> We’ve got sessions running in several locations → please pick the one that’s right for you!
 
 > **📌 Replace the last two digits to get your group number:**
 > * ZDT261_**0##** → **01** → **40** → **SAP TechEd Berlin**  
@@ -25,7 +25,7 @@
     <th>Value</th>
   </tr>
   <tr>
-    <td>AN4</td>
+    <td>S/4HANA Public Cloud System <b>AN4</b</td>
     <td>https://my427037-api.s4hana.cloud.sap</td>
   </tr>
   <tr>
@@ -45,11 +45,13 @@
 
 ## 🌐 Exercise - Getting Started - Connect and Logon
 1. Logon to 
+
 2. Start ABAP Development Tools
+
 3. Create a New Cloud Project
    <!--![alt text](images/image02.png)-->
    <img src="images//image02.png" width="70%">
-   ![alt text](image.png)
+
 4. Enter the URL of your system: **https://my427037-api.s4hana.cloud.sap**
    <img src="images//image03.png" width="70%">
 
