@@ -74,7 +74,7 @@ Now we can define the action with the parameter that has just been created.
 
    <pre lang="ABAP">
    field(readonly) zzfeedbackzaa;
-   action(authorization : global, features : instance ) ZZ_ProvideFeedback  parameter ZDT261_A_Feedback_### result[1] $self;
+   action(authorization : global, features : instance ) ZZ_ProvideFeedback  parameter ZX_ZDT261A_Feedback_### result[1] $self;
    </pre> 
   
    so that your code now reads
@@ -168,7 +168,7 @@ In order to make the action visible an appropriate `use action` statement has to
 
 ### Exercise 3.5 - Add UI annotation
 
-UI annotations have to be added to make the action button visible. This is done in the C-View Extension `ZDT261C_EXT_SHOPTP_###`.   
+UI annotations have to be added to make the action button visible. This is done in the C-View Extension `ZX_ZDT261C_EXT_SHOPTP_###`.   
 
 For this you have to add the following code snippet to the `UI.identification` and `UI.lineitem` annotations.
 

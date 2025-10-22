@@ -12,8 +12,8 @@
 > We’ve got sessions running in several locations → please pick the one that’s right for you!
 
 > **📌 Replace the last two digits to get your group number:**
-> * ZDT261_**0##** → **01** → **40** → **SAP TechEd Berlin**  
-> * ZDT261_**1##** → **00** → **99** → **ASUG Tech-Connect**
+> * ZDT261_**0##** → **01** → **40** → **SAP TechEd Berlin**  (e.g ``ZDT261_019``)
+> * ZDT261_**1##** → **00** → **99** → **ASUG Tech-Connect**  (e.g ``ZDT261_123``)
 
 <br>
 
@@ -77,6 +77,6 @@
  
 ## Summary
 
-You successfully logged on the your system, and added your favorite packages and launched the Fiori Elements Preview for the provided application.
+You successfully logged on the your system, added your favorite packages and launched the Fiori Elements Preview for the provided application.
 
-Let's continue with the real exercise: [Exercise 1](../ex01/README.md)
+Let's continue with the [Exercise 1](../ex01/README.md)

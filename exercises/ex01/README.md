@@ -7,7 +7,7 @@
   - [🔍 Description](#-description)
   - [Exercise 1.1 Extend the Metadata Extension with a value help definition](#exercise-11-extend-the-metadata-extension-with-a-value-help-definition)
   - [Exercise 1.2 Extend the behavior definition with a validation](#exercise-12-extend-the-behavior-definition-with-a-validation)
-  - [Exercise 1.3 Extend the behavior definition with an determination](#exercise-13-extend-the-behavior-definition-with-an-determination)
+  - [Exercise 1.3 Extend the behavior definition with a determination](#exercise-13-extend-the-behavior-definition-with-a-determination)
   - [Exercise 1.4 Extend the behavior definition with side effects](#exercise-14-extend-the-behavior-definition-with-side-effects)
   - [Summary](#summary)
 
@@ -58,10 +58,14 @@ In this exercise, we will extend the behavior of an extensible RAP BO. That mean
 
 3. Save and Activate.
 
-4. Open your Service Binding `ZDT261UI SHOP_O4_###` and launch the Fiori Elements Preview. Now you can use the value help in order to search for a product.
+4. Open your Service Binding `ZDT261UI SHOP_O4_###` and launch the Fiori Elements Preview or simply refresh the already opened Fiori Elements Preview. Now you can use the value help in order to search for a product.
 
     <img src="images//image13.png" width="70%">
 
+5. If you're curious about the annotations being applied, the Active Annotations View in the ABAP Development Tools (ADT) can provide valuable insights into how this influences the UI behavior.
+
+    <img src="images//image14.png" width="70%">
+    <img src="images//image15.png" width="70%">
 
 ## Exercise 1.2 Extend the behavior definition with a validation
 
@@ -160,22 +164,25 @@ In this exercise, we will extend the behavior of an extensible RAP BO. That mean
    ENDCLASS.  
    </pre>  
 
-8.  Open the service binding `ZDT261UI_SHOP_O4_###` of your RAP base BO.
 
-9. Double-click on the entity **Shop** . This will start the ADT preview of the Shop RAP BO.  
+8.  Save and Activate.
+   
+9.  Open the service binding `ZDT261UI_SHOP_O4_###` of your RAP base BO.
+
+10. Double-click on the entity **Shop** . This will start the ADT preview of the Shop RAP BO.  
 
     <img src="images//image06.png" width="70%">
 
-10. Press the **Create** button on the list page.
-11. The **New : Shop** object page opens where you have to enter the data for a new order.      
-12. Select a product for the field **OrderedItem** but do **NOT** select a **Delivery Date**
-13. Press **Create**.   
-14. This shall raise the follwoing error message:   
+11. Press the **Create** button on the list page.
+12. The **New : Shop** object page opens where you have to enter the data for a new order.      
+13. Select a product for the field **OrderedItem** but do **NOT** select a **Delivery Date**
+14. Press **Create**.   
+15. This shall raise the follwoing error message:   
 
     <img src="images//image07.png" width="70%">
 
 
-## Exercise 1.3 Extend the behavior definition with an determination
+## Exercise 1.3 Extend the behavior definition with a determination
 
 In a second step we will now add a determination `ZZ_setOverallStatus` to the behavior defintion extension. This shall be executed in case the content of the field `OrderedItem` is changed by the user.   
 
@@ -185,8 +192,8 @@ In a second step we will now add a determination `ZZ_setOverallStatus` to the be
    <pre lang="ABAP">
      determination ZZ_setOverallStatus on modify {  field OrderedItem; }
    </pre>
-  
-   so that the code of your BDEF should now read as follows:   
+       
+   The code for your BDEF should now be as follows:
    <pre lang="ABAP">   
    extension using interface ZDT261I_shoptp_###
      implementation in class ZBP_DT261R_EXT_SHOPTP_### unique;
