@@ -144,7 +144,7 @@ The extension project should now look like as follows:
 
    <img src="images//image14.png" width="70%">
 
-### Exercise 2.4 - Test the field extensibility
+## Exercise 2.4 - Test the field extensibility
 
 After having extended all the objects in the hiearchy of your base RAP business object you can now leverage the additional field in the UI.
 
