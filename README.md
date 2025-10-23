@@ -62,4 +62,4 @@ The main aspect of developer extensibility is the option to extend an extensible
 
 <br>
 
-Let's go to [Exercise - Getting Started - Connect and Logon](./ex00/README.md)
+Let's go to [Exercise - Getting Started - Connect and Logon](exercises/ex00/README.md)
