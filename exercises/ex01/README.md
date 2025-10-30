@@ -33,7 +33,7 @@ In this exercise, we will extend the behavior of an extensible RAP BO. That mean
 
 1. Create a Metadata Extension to add a value help to search products.
 
-    **Package**: ⚠`ZDT261_###_EXT`⚠   
+    **Package**: `ZDT261_###_EXT`   
     **Name**: `ZX_ZDT261C_ShopTP_###`  
     **Description**: `Extension for ZDT261C_SHOPTP_###`    
     **Extended Entity**: `ZDT261C_SHOPTP_###`  

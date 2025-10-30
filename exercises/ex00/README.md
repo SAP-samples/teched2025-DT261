@@ -25,8 +25,8 @@
     <th>Value</th>
   </tr>
   <tr>
-    <td>S/4HANA Public Cloud System <b>AN4</b</td>
-    <td>https://my427037-api.s4hana.cloud.sap</td>
+    <td>S/4HANA Public Cloud System - <b>AN4</b> -</td>
+    <td>⚠ <b>will be provided by your instructors</b> ⚠</td>
   </tr>
   <tr>
     <td>User</td>
@@ -34,7 +34,7 @@
   </tr>
   <tr>
     <td>Password</td>
-    <td>**will be provided by the instructors**</td>
+    <td>⚠ <b>will be provided by your instructors</b> ⚠</td>
   </tr>
   <tr>
     <td>Exercise Package</td>
@@ -52,7 +52,7 @@
    <!--![alt text](images/image02.png)-->
    <img src="images//image02.png" width="70%">
 
-4. Enter the URL of your system: **https://my427037-api.s4hana.cloud.sap**
+4. Enter the URL of your system: ⚠**Provided by your instructor**⚠
    <img src="images//image03.png" width="70%">
 
 5. Authenticate with the provided user (### your group number)
