@@ -2,6 +2,8 @@
 
 - [TechEd2025 - DT261 - Build on-stack extensions with ABAP Cloud in SAP Cloud ERP](#teched2025---dt261---build-on-stack-extensions-with-abap-cloud-in-sap-cloud-erp)
   - [💬Session Overview](#session-overview)
+    - [🗺️ SAP S/4HANA Cloud extensibility patterns](#️-sap-s4hana-cloud-extensibility-patterns)
+    - [🗺️ Today‘s focus: On-stack developer extensibility options](#️-todays-focus-on-stack-developer-extensibility-options)
   - [🗺️ RESTful ABAP Programming Model - Extensibility Overview](#️-restful-abap-programming-model---extensibility-overview)
   - [🛠️ Exercises](#️-exercises)
   - [ℹ️ Further Information](#ℹ️-further-information)
@@ -24,7 +26,14 @@ It gives you an overview of the RAP extensibility architecture, extension develo
 
    → Such an extensible RAP business object will usually reside in another software components or it is an existing extensible RAP BO that has been delivered by SAP or a SAP partner. By extending the funcitionality of an existing RAP Business object its functionality can be adapted to your specific business requirements.
 
-   ![S4 HANA Cloud Extensibility Options](images/Scenario_Overview.png)
+### 🗺️ SAP S/4HANA Cloud extensibility patterns
+
+   ![S4 HANA Cloud Extensibility Options](images/Scenario_Overview_New.png)
+
+
+### 🗺️ Today‘s focus: On-stack developer extensibility options
+
+   ![Today's Focus](images/TodaysSession.png)
 
 
 ## 🗺️ RESTful ABAP Programming Model - Extensibility Overview
