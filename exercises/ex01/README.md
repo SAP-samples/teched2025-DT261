@@ -321,7 +321,7 @@ Now you can continue and add side effects via your behavior definition extension
      }
     </pre>
 
-3. Create a new order, specify a delivery data or open an existing order and switch to the edit mode and then select a (new) product. 
+3. Create a new order, specify a delivery date or open an existing order and switch to the edit mode and then select a (new) product. 
    
    You will notice that the data for the product that you have selected in the SAP Fiori UI is being updated automatically.  
    Also the approval status changes if the price changes from below 1000 Euro to a value that is larger than 1000 Euro and vice versa.    
