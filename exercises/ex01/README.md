@@ -292,7 +292,7 @@ In a second step we will now add a determination `ZZ_setOverallStatus` to the be
 Now you can continue and add side effects via your behavior definition extension.
 
 > Please note:  
-> An extension via side effects is only possible if the extensible RAP business objects provide the `use side effects` statement in its behavior projection or in its interface projection. 
+> An extension via side effects is only possible if the extensible RAP business object provides the `use side effects` statement in its behavior projection or in its interface projection. 
 > Since the statement `use side effects` can not be added via an extension itself this has thus to be foreseen by the developer.  
 
 
