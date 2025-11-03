@@ -103,7 +103,7 @@ Now we can define the action with the parameter that has just been created.
 
 3. Activate your changes.     
 
-3. Use the code assist (Press Ctrl+1) on the **Shop** entity and let the framework generate the missing artefacts.
+3. Use the code assist (Press Ctrl+1) on the **Shop** entity and let the framework generate the missing artifacts.
 
    <img src="images//image02.png" width="70%">
 
@@ -139,7 +139,7 @@ Now we can define the action with the parameter that has just been created.
 
 ### Exercise 3.4 - Extend the projection BDEF
 
-In order to make the action visible an appropriate `use action` statement has to added to the projection level of the BDEF of the extensible root BO.
+In order to make the action visible an appropriate `use action` statement has to be added to the projection layer of the BDEF of the extensible root BO.
 
 1. Right click on the projection behavior definition `ZDT261C_ShopTP_###` within the package `ZDT261_###` and select **New Behavior Extension**  
    
