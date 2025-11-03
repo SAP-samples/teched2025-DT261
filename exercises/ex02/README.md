@@ -6,8 +6,8 @@
   - [🔴 Important Information](#-important-information)
   - [Introduction](#introduction)
   - [Exercise 2.1 - Extend the CDS data model using the field extension wizard](#exercise-21---extend-the-cds-data-model-using-the-field-extension-wizard)
-  - [Excercise 2.2 - Extend the data structure with the extension field wizard](#excercise-22---extend-the-data-structure-with-the-extension-field-wizard)
-  - [Excercise 2.3 - Check the data structure extension](#excercise-23---check-the-data-structure-extension)
+  - [Exercise 2.2 - Extend the data structure with the extension field wizard](#exercise-22---extend-the-data-structure-with-the-extension-field-wizard)
+  - [Exercise 2.3 - Check the data structure extension](#exercise-23---check-the-data-structure-extension)
     - [Exercise 2.4 - Test the field extensibility](#exercise-24---test-the-field-extensibility)
   - [Summary](#summary)
 
@@ -20,16 +20,16 @@
 > * ZDT261_**0##** → **01** → **40** → **SAP TechEd Berlin**  
 > * ZDT261_**1##** → **00** → **99** → **ASUG Tech-Connect**
 
-<br>forget to replace all occurences of the placeholder **`###`** with your assigned location and group number in the exercise steps below.
+<br>Don't forget to replace all occurrences of the placeholder **`###`** with your assigned location and group number in the exercise steps below.
 <br>
 
 ## Introduction  
 
-In the preceeding exercise we have extended the _behavior_ of the based RAP BO by adding a determination, a validation and a side effect. 
+In the previous exercise we have extended the _behavior_ of the based RAP BO by adding a determination, a validation and a side effect. 
 
 We will now adapt the _CDS data model_, that means we will add new fields to the _Shop_ entity. 
 
-Compared to the activities for adding additional behavior this is a larger amount of work since the complete stack of CDS views has be extended rather than only extensing the behavior definition (BDEF).
+Compared to the activities for adding additional behavior this is a larger amount of work since the complete stack of CDS views has to be extended rather than only extending the behavior definition (BDEF).
 
 <img src="images//image00.png" width="100%">
 
@@ -58,7 +58,7 @@ The **extension field wizard** can be started from the consumption (c-view) or i
 
 When for example using the C-view as the entry point the wizard will suggest to extend the C-view by default.
 
-## Excercise 2.2 - Extend the data structure with the extension field wizard
+## Exercise 2.2 - Extend the data structure with the extension field wizard
 
 1. Right click on the consumption projection view `ZDT261C_ShopTP_###` (the one with the statement `provider contract TRANSACTIONAL_QUERY` ) and choose **Generate ABAP Repository Objects ..**.
 
@@ -126,7 +126,7 @@ When for example using the C-view as the entry point the wizard will suggest to 
 
 
 
-## Excercise 2.3 - Check the data structure extension
+## Exercise 2.3 - Check the data structure extension
 
 The wizard has generated the following repository objects:   
 
@@ -134,8 +134,8 @@ The wizard has generated the following repository objects:
 No.      | Extension repository object | Extended repository object       | Comment  
 -------- | ------------------------- | ------------------------ | -----------------------------------------------------   
 1        | `ZAPD_ZDT261SSHOP_###`   | `ZDT261SSHOP_###`       | extends extension include structure 
-2        | `ZX_ZDT261E_SHOP_###`    | `ZDT261E_Shop_###`      | extends extension inlcude view   
-3        | `ZX_ZDT261R_SHOPTP_###`  | `ZDT261R_ShopTP_###`    | extends restricted transcational base view   
+2        | `ZX_ZDT261E_SHOP_###`    | `ZDT261E_Shop_###`      | extends extension include view   
+3        | `ZX_ZDT261R_SHOPTP_###`  | `ZDT261R_ShopTP_###`    | extends restricted transactional base view   
 4        | `ZX_ZDT261C_SHOPTP_###`  | `ZDT261C_ShopTP_###`    | extends transactional projection view
 5        | `ZX_ZDT261I_SHOPTP_###`  | `ZDT261I_ShopTP_###`    | extends transactional interface view 
 6        | `ZX_ZDT261R_SHOP_D_###`  | `ZDT261R_Shop_D_###`    | extends draft query view
@@ -146,7 +146,7 @@ The extension project should now look like as follows:
 
 ## Exercise 2.4 - Test the field extensibility
 
-After having extended all the objects in the hiearchy of your base RAP business object you can now leverage the additional field in the UI.
+After having extended all the objects in the hierarchy of your base RAP business object you can now leverage the additional field in the UI.
 
 
 1. Open the Service Binding of the extensible RAP business object and double-click on the entity**Shop**.   
@@ -168,6 +168,6 @@ After having extended all the objects in the hiearchy of your base RAP business 
 ## Summary
 
 You have now added a single editable field to your extensible RAP business object.   
-In the next execise we will show how to add an action. 
+In the next exercise we will show how to add an action. 
 
 Continue to - [Exercise 3 - Add an action ](../ex03/README.md)
