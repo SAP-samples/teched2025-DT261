@@ -194,7 +194,7 @@ You should now see an action button that allows you to enter feedback.
 
 ## Summary
 
-You've now finished.
+You're done with the exercises. Congratulations.
 
 [^Top of page](#)   
 [Home - DT261](../../../../#exercises)   
