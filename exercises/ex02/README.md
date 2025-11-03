@@ -25,7 +25,7 @@
 
 ## Introduction  
 
-In the previous exercise we have extended the _behavior_ of the based RAP BO by adding a determination, a validation and a side effect. 
+In the previous exercise we have extended the _behavior_ of the base RAP BO by adding a determination, a validation and a side effect. 
 
 We will now adapt the _CDS data model_, that means we will add new fields to the _Shop_ entity. 
 
