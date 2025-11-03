@@ -8,7 +8,7 @@
   - [Exercise 2.1 - Extend the CDS data model using the field extension wizard](#exercise-21---extend-the-cds-data-model-using-the-field-extension-wizard)
   - [Exercise 2.2 - Extend the data structure with the extension field wizard](#exercise-22---extend-the-data-structure-with-the-extension-field-wizard)
   - [Exercise 2.3 - Check the data structure extension](#exercise-23---check-the-data-structure-extension)
-    - [Exercise 2.4 - Test the field extensibility](#exercise-24---test-the-field-extensibility)
+  - [Exercise 2.4 - Test the field extensibility](#exercise-24---test-the-field-extensibility)
   - [Summary](#summary)
 
 ## 🔴 Important Information
