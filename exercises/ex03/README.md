@@ -6,7 +6,7 @@
   - [🔴 Important Information](#-important-information)
     - [Exercise 3.1 Create an abstract entity](#exercise-31-create-an-abstract-entity)
     - [Exercise 3.2 Extend the behavior definition](#exercise-32-extend-the-behavior-definition)
-    - [Exercise 3.3 - Implement the method for the action in the behvior implementation class](#exercise-33---implement-the-method-for-the-action-in-the-behvior-implementation-class)
+    - [Exercise 3.3 - Implement the method for the action in the behavior implementation class](#exercise-33---implement-the-method-for-the-action-in-the-behvior-implementation-class)
     - [Exercise 3.4 - Extend the projection BDEF](#exercise-34---extend-the-projection-bdef)
     - [Exercise 3.5 - Add UI annotation](#exercise-35---add-ui-annotation)
   - [Summary](#summary)
@@ -39,11 +39,11 @@ and add the required extensions to the
 
 ### Exercise 3.1 Create an abstract entity
 
-We want to provide the feedback for an order as a parameter of an action that will be added as an extenstion.
-Parameters are passed to the action using abstract entites.
+We want to provide the feedback for an order as a parameter of an action that will be added as an extension.
+Parameters are passed to the action using an abstract entity.
 
 1. Right click on the folder **Data Definition** in your package `ZDT261_###_EXT` 
-2. Choose **New data defintion** from the context menu  
+2. Choose **New data definition** from the context menu  
    - Package: `ZDT261_###_EXT`  
    - Name: `ZX_ZDT261A_Feedback_###`   
    - Description: `Pass feedback as a parameter`  
@@ -107,7 +107,7 @@ Now we can define the action with the parameter that has just been created.
 
    <img src="images//image02.png" width="70%">
 
-### Exercise 3.3 - Implement the method for the action in the behvior implementation class
+### Exercise 3.3 - Implement the method for the action in the behavior implementation class
 
 1. Open the local class of the behavior implementation class.
 
