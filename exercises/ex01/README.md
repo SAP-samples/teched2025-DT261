@@ -24,7 +24,7 @@
 
 ## 🔍 Description
 
-In this exercise, we will extend the behavior of an extensible RAP BO. That means we will add a validation, a determination and side-effects to the behavior of the RAP BO by using an extenstion.    
+In this exercise, we will extend the behavior of an extensible RAP BO. That means we will add a validation, a determination and side-effects to the behavior of the RAP BO by using an extension.    
 
 ![BDEF Extension](images/Extensibility_Extend_the_behavior.png)    
 
@@ -74,7 +74,7 @@ In this exercise, we will extend the behavior of an extensible RAP BO. That mean
 >  After completing these steps you will have created a validation to check the delivery date.  
 
 
-1. Right-click on the behavior definition `ZDT261R_ShopTP_###` and select **New Behavior Extension** from the context menue. 
+1. Right-click on the behavior definition `ZDT261R_ShopTP_###` and select **New Behavior Extension** from the context menu. 
 
     <img src="images//image01.png" width="70%">
 
@@ -96,7 +96,7 @@ In this exercise, we will extend the behavior of an extensible RAP BO. That mean
 
 3. Finish, Save and Activate.
    
-4. Add a validation `zz_validateDeliverydate` to your behavior defintion that reacts on `create;` and the field `DeliveryDate;`  
+4. Add a validation `zz_validateDeliverydate` to your behavior definition that reacts on `create;` and the field `DeliveryDate;`  
    This validation must also be added to the `draft determine action Prepare`. Do not forget to activate your changes.   
  
    <pre lang="ABAP">
@@ -186,10 +186,10 @@ In this exercise, we will extend the behavior of an extensible RAP BO. That mean
 
 ## Exercise 1.3 Extend the behavior definition with a determination
 
-In a second step we will now add a determination `ZZ_setOverallStatus` to the behavior defintion extension. This shall be executed in case the content of the field `OrderedItem` is changed by the user.   
+In a second step we will now add a determination `ZZ_setOverallStatus` to the behavior definition extension. This shall be executed in case the content of the field `OrderedItem` is changed by the user.   
 
  
-1. Add the following statement to your behavior defintion extension `ZDT261R_EXT_SHOPTP_###`.     
+1. Add the following statement to your behavior definition extension `ZDT261R_EXT_SHOPTP_###`.     
 
    <pre lang="ABAP">
      determination ZZ_setOverallStatus on modify {  field OrderedItem; }
@@ -214,11 +214,11 @@ In a second step we will now add a determination `ZZ_setOverallStatus` to the be
 
 2. Press **Ctrl+1** to start the content assist and double-click on the proposal to add the appropriate code in the behavior implementation class `ZBP_DT261R_EXT_SHOPTP_###`. 
 
-3. Add the following code into the implementation of the method `ZZ_setOverallStatus`. Do not forget to replace all occurences of `###` with your group number.   
+3. Add the following code into the implementation of the method `ZZ_setOverallStatus`. Do not forget to replace all occurrences of `###` with your group number.   
    
    > The code first performs a read request using EML using the key fields of our RAP BO that are provided by the framework an reads the data of all affected 
-   > orders. In the following loop statement it is checked whether the price exceeds a certain threshould (1000 EUR) and depending on the price the order is 
-   > either autmatically approved or is awaiting an approval.   
+   > orders. In the following loop statement it is checked whether the price exceeds a certain threshold (1000 EUR) and depending on the price the order is 
+   > either automatically approved or is awaiting an approval.   
    > The price for a product is read from an CDS view and the instance of the RAP BO is modified accordingly.    
  
    <pre lang="ABAP">
@@ -276,7 +276,7 @@ In a second step we will now add a determination `ZZ_setOverallStatus` to the be
 
 3. > When you get the error message:   
    > The entity "SHOP" does not have a determination "ZZ_SETOVERALLSTATUS".	 
-   > This might be, because you have not activated yor BDEF yet.   
+   > This might be, because you have not activated your BDEF yet.   
 
 4. Create a new entity and select an item or change the item an existing entity,  
    **but don't save your changes** so that only the draft is affected.   
@@ -284,12 +284,12 @@ In a second step we will now add a determination `ZZ_setOverallStatus` to the be
    > You will notice that the draft data for the item name is updated, but the price is NOT updated in the draft.
    > Also the approval status does not change in the draft if the product price becomes larger than 1000 Euro.  
    > The data will only be updated in the UI once you save your data.  
-   > This we will change in the following step of our excerise by using side effects.
+   > This we will change in the following step of our exercise by using side effects.
 
 
 ## Exercise 1.4 Extend the behavior definition with side effects
 
-Now you can continue and add side effects via your behavior defintion extension.
+Now you can continue and add side effects via your behavior definition extension.
 
 > Please note:  
 > An extension via side effects is only possible if the extensible RAP business objects provide the `use side effects` statement in its behavior projection or in its interface projection. 
