@@ -24,7 +24,7 @@ It gives you an overview of the RAP extensibility architecture, extension develo
    
 3. Extend an existing RAP Business Object so that additional business functionality is added.
 
-   → Such an extensible RAP business object will usually reside in another software components or it is an existing extensible RAP BO that has been delivered by SAP or a SAP partner. By extending the funcitionality of an existing RAP Business object its functionality can be adapted to your specific business requirements.
+   → Such an extensible RAP business object will usually reside in another software components or it is an existing extensible RAP BO that has been delivered by SAP or a SAP partner. By extending the functionality of an existing RAP Business object its functionality can be adapted to your specific business requirements.
 
 ### 🗺️ SAP S/4HANA Cloud extensibility patterns
 
