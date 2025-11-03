@@ -278,7 +278,7 @@ In a second step we will now add a determination `ZZ_setOverallStatus` to the be
    > The entity "SHOP" does not have a determination "ZZ_SETOVERALLSTATUS".	 
    > This might be, because you have not activated your BDEF yet.   
 
-4. Create a new entity and select an item or change the item an existing entity,  
+4. Create a new entity and select an item or change the item of an existing entity,  
    **but don't save your changes** so that only the draft is affected.   
 
    > You will notice that the draft data for the item name is updated, but the price is NOT updated in the draft.
