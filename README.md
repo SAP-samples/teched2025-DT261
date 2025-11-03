@@ -36,9 +36,9 @@ It gives you an overview of the RAP extensibility architecture, extension develo
    ![Today's Focus](images/TodaysSession.png)
 
 
-## 🗺️ RESTful ABAP Programming Model - Extensibility Overview
+## 🗺️ ABAP RESTful Application Programming Model - Extensibility Overview
 
-Extensibility in RAP (RESTful ABAP Programming Model) empowers application consumers to tailor existing applications to meet specific business requirements and processes through RAP extensions. These extensibility features are built with lifecycle stability in mind and ensure a clear separation of concerns between the original business object (BO) and its extensions. Each extension is self-contained and consistently managed by RAP, regardless of whether the BO is managed or unmanaged.
+Extensibility in RAP (ABAP RESTful Application Programming Model) empowers application consumers to tailor existing applications to meet specific business requirements and processes through RAP extensions. These extensibility features are built with lifecycle stability in mind and ensure a clear separation of concerns between the original business object (BO) and its extensions. Each extension is self-contained and consistently managed by RAP, regardless of whether the BO is managed or unmanaged.
 By default, a RAP BO is not extensible. To enable extensibility, the original BO provider must explicitly allow it by defining dedicated extension points. These points can be finely controlled, giving precise authority over which parts of the BO can be extended and what types of extensions are permitted.
 
 Once extensibility is enabled, extension providers can enhance the original BO by adding various types of extensions to its data model and behavior. However, they are restricted to only those extension types that the original BO has been configured to support. Attempting to define unsupported fields or behaviors will result in syntax errors in the extension BDEF and related data model extension objects.
@@ -67,7 +67,7 @@ The main aspect of developer extensibility is the option to extend an extensible
 | ------ | -- |
 | [ABAP RESTful Application Programming Model](https://help.sap.com/docs/abap-cloud/abap-rap/abap-restful-application-programming-model?locale=en-US&version=LATEST)| The ABAP RESTful Application Programming Model (in short RAP) defines the architecture for efficient end-to-end development of intrinsically SAP HANA-optimized OData services (such as Fiori apps) in ABAP Cloud. |
 | [RAP Extensibility-Enablement](https://help.sap.com/docs/abap-cloud/abap-rap/rap-extensibility-enablement?locale=en-US&version=LATEST) | Explains the concepts of how to enable a custom RAP BO for extension development. |
-| [Develop RAP Extensions](https://help.sap.com/docs/abap-cloud/abap-rap/develop-rap-extensions?locale=en-US&version=LATEST) | This site offers how-to information and implementation examples for extending a RESTful ABAP Programming Model (RAP) Business Object. |
+| [Develop RAP Extensions](https://help.sap.com/docs/abap-cloud/abap-rap/develop-rap-extensions?locale=en-US&version=LATEST) | This site offers how-to information and implementation examples for extending a ABAP RESTful Application Programming Model (RAP) Business Object. |
 
 <br>
 
