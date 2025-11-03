@@ -216,7 +216,7 @@ In a second step we will now add a determination `ZZ_setOverallStatus` to the be
 
 3. Add the following code into the implementation of the method `ZZ_setOverallStatus`. Do not forget to replace all occurrences of `###` with your group number.   
    
-   > The code first performs a read request using EML using the key fields of our RAP BO that are provided by the framework an reads the data of all affected 
+   > The code first performs a read request using EML using the key fields of our RAP BO that are provided by the framework and reads the data of all affected 
    > orders. In the following loop statement it is checked whether the price exceeds a certain threshold (1000 EUR) and depending on the price the order is 
    > either automatically approved or is awaiting an approval.   
    > The price for a product is read from an CDS view and the instance of the RAP BO is modified accordingly.    
