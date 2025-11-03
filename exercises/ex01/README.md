@@ -120,7 +120,7 @@ In this exercise, we will extend the behavior of an extensible RAP BO. That mean
     <img src="images//image03.png" width="70%">
     <img src="images//image04.png" width="70%">
    
-6. This will open the editor for your behavior implementation class. Here you have to have to navigate to the **Local Types** tab since the implementation of behaviors takes place in local classes.    
+6. This will open the editor for your behavior implementation class. Here you have to navigate to the **Local Types** tab since the implementation of behaviors takes place in local classes.    
 
     <img src="images//image05.png" width="70%">
 
