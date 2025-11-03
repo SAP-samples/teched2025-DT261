@@ -88,12 +88,12 @@ When for example using the C-view as the entry point the wizard will suggest to 
 
    <img src="images//image06.png" width="70%">
 
-7. The wizard now shows the list of ABAP Artifacts that are going to be created / modified.
+7. The wizard now shows the list of ABAP artifacts that are going to be created / modified.
 
    <img src="images//image07.png" width="70%"/>
 
 
-   You can check out the code for also for the other artifacts that are going to be generated
+   You can check out the code of the artifacts that are going to be generated
    
      ### Extension include structure 
  
