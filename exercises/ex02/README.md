@@ -149,7 +149,7 @@ The extension project should now look like as follows:
 After having extended all the objects in the hierarchy of your base RAP business object you can now leverage the additional field in the UI.
 
 
-1. Open the Service Binding of the extensible RAP business object and double-click on the entity**Shop**.   
+1. Open the Service Binding of the extensible RAP business object and double-click on the entity **Shop**.   
   
 2. Press the **Go** button.  
   
