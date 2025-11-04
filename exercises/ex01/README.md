@@ -307,7 +307,7 @@ Now you can continue and add side effects via your behavior definition extension
 
    <pre lang="ABAP">
      extension using interface ZDT261I_shoptp_###
-       implementation in class zbp_rap630r_ext_shoptp_### unique;
+       implementation in class zbp_dt261R_ext_shoptp_### unique;
  
        extend behavior for Shop
     {
