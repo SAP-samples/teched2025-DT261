@@ -13,7 +13,9 @@
 
 > **📌 Replace the last two digits to get your group number:**
 > * ZDT261_**0##** → **01** → **40** → **SAP TechEd Berlin**  (e.g ``ZDT261_019``)
+> * ZDT261_**0##**_EXT → **01** → **40** → **SAP TechEd Berlin**  (e.g ``ZDT261_019_EXT``)
 > * ZDT261_**1##** → **00** → **99** → **ASUG Tech-Connect**  (e.g ``ZDT261_123``)
+> * ZDT261_**1##**_EXT → **00** → **99** → **ASUG Tech-Connect**  (e.g ``ZDT261_123_EXT``)
 
 <br>
 
