@@ -69,13 +69,13 @@
    
    <img src="images//image04.png" width="70%">
 
-8. Add your exercise packages as Faviorite Packages
+8. Add your exercise packages as Favorite Packages
    
    There are two exercise packages: `ZDT261_###` and `ZDT261_###_EXT`
 
    <img src="images//image05.png" width="70%">
 
-9.  Open your Service Binding `ZDT261UI SHOP_O4_###` and launch the Fiori Elements Preview to test the already provided Fiori application.
+9.  Open your Service Binding `ZDT261UI_SHOP_O4_###` and launch the Fiori Elements Preview to test the already provided Fiori application.
 
    <img src="images//image06.png" width="70%">
 
