@@ -50,28 +50,32 @@
 
 2. Start ABAP Development Tools
 
-3. Create a New Cloud Project
+3. Open the ABAP Perspective
+   
+   <img src="images//image01.png" width="50%">
+
+4. Create a New Cloud Project
    <!--![alt text](images/image02.png)-->
    <img src="images//image02.png" width="70%">
 
-4. Enter the URL of your system: ⚠**Provided by your instructor**⚠
+5. Enter the URL of your system: ⚠**Provided by your instructor**⚠
    <img src="images//image03.png" width="70%">
 
-5. Authenticate with the provided user (### your group number)
+6. Authenticate with the provided user (### your group number)
     * User: DT261-###@education.cloud.sap
     * Pasword:  **will be provided by the instructors**
 
-8. Finish the New Project Creation Wizard
+7. Finish the New Project Creation Wizard
    
    <img src="images//image04.png" width="70%">
 
-9. Add your exercise packages as Faviorite Packages
+8. Add your exercise packages as Faviorite Packages
    
    There are two exercise packages: `ZDT261_###` and `ZDT261_###_EXT`
 
    <img src="images//image05.png" width="70%">
 
-10. Open your Service Binding `ZDT261UI SHOP_O4_###` and launch the Fiori Elements Preview to test the already provided Fiori application.
+9.  Open your Service Binding `ZDT261UI SHOP_O4_###` and launch the Fiori Elements Preview to test the already provided Fiori application.
 
    <img src="images//image06.png" width="70%">
 
