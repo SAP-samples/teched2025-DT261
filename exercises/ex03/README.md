@@ -170,7 +170,7 @@ In order to make the action visible an appropriate `use action` statement has to
 
 ### Exercise 3.5 - Add UI annotation
 
-UI annotations have to be added to make the action button visible. This is done in the C-View Extension `ZX_ZDT261C_EXT_SHOPTP_###`.   
+UI annotations have to be added to make the action button visible. This is done in the C-View Extension `ZX_ZDT261C_ShopTP_###`.   
 
 For this you have to add the following code snippet to the `UI.identification` and `UI.lineitem` annotations.
 
