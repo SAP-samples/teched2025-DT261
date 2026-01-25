@@ -8,7 +8,6 @@
   - [🛠️ Exercises](#️-exercises)
   - [ℹ️ Further Information](#ℹ️-further-information)
 
-
 ## 💬Session Overview
 
 This repository contains the material for the SAP TechEd 2025 session **DT261 - Build on-stack extensions with ABAP Cloud in SAP Cloud ERP**.
