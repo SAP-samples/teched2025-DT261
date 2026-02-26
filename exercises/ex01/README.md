@@ -64,7 +64,10 @@ In this exercise, we will extend the behavior of an extensible RAP BO. That mean
 3. Save and Activate.
 
 4. Open your Service Binding `ZDT261UI SHOP_O4_###` and launch the Fiori Elements Preview or simply refresh the already opened Fiori Elements Preview.  
-Press the **Create** button to create a new ShoppingCart entity.     
+Press the **Create** button to create a new ShoppingCart entity.   
+
+    <img src="images//image13a.png" width="70%">
+
 Now you can use the value help in order to search for a product.
 
     <img src="images//image13.png" width="70%">
