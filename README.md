@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2025-DT261)](https://api.reuse.software/info/github.com/SAP-samples/teched2025-DT261)
+
 # TechEd2025 - DT261 - Build on-stack extensions with ABAP Cloud in SAP Cloud ERP
 
 - [TechEd2025 - DT261 - Build on-stack extensions with ABAP Cloud in SAP Cloud ERP](#teched2025---dt261---build-on-stack-extensions-with-abap-cloud-in-sap-cloud-erp)
